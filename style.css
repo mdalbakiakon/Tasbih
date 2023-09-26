@@ -25,6 +25,7 @@ body{
     margin-right: 20px;
     padding: 0px 5px;
     box-shadow: 1px 5px 25px black;
+    cursor: pointer;
 }
 
 #reset:hover{
@@ -37,28 +38,42 @@ body{
 .reset_class{
     min-height: 200px;
 }
+
 #reset:active{
     box-shadow: 0px 0px 30px rgb(251, 255, 0);
     background-color: hsl(50,100%,50%);
     color: black;
     transition: 100ms;
 }
+
+.inc_class{
+    position: relative;
+    top:80px;
+    width: 320px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #increase{
     margin: 0 auto;
+    color: hsl(100, 56%, 33%);
     height: 240px;
     width: 240px;
     border-radius: 50%;
     box-shadow: 1px 5px 25px black;
     display: block;
     background-color: hsla(0, 0%, 0%, 0.8);
-    border: 2px solid hsl(0, 0%, 0%);
+    border: 0.5px solid hsla(0, 0%, 0%, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 #increase:active{
-    box-shadow: 0px 0px 30px rgb(55, 255, 0);
+    box-shadow: 0px 0px 50px rgb(55, 255, 0);
+    color: hsl(100, 100%, 50%);
     transition: 100ms;
 }
 
